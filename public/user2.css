@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom left, #20b393 0%, #f0687a 100%); 
+     background-repeat:no-repeat;
+     height:100vh;
+     display: flex;
+     justify-content: center;
+    }
+   .text-center{
+     color:white;
+     font-size:40px;
+     margin-top:50px;
+     font-family:times new roman;
+   }
+   .message1 {
+     font-size:25px;
+     color:white;
+     margin-top:70px;
+     font-family:times new roman;
+    /* margin-left:420px; */
+     text-align:center;
+   }
+ 
+    .button{
+    padding: 10px 25px;
+       text-align: center;
+      font-size: 16px;
+    cursor: pointer;
+     border-radius:10px;
+     margin-left:45%;
+   
+     color:black;
+     background-color: white;
+      
+     }
+ 
+   
+   
+   

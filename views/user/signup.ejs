@@ -1,0 +1,27 @@
+<% include('../layout/header.ejs') %>
+<head>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<div class="login-page">
+  <div class="form">
+    <form class="register-form" action="/user-home" method="post">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <h1 class="h2">signup page</h1>
+      <input type="text" class="field" placeholder="username"/>
+      <input type="email" class="field" placeholder="Email"/>
+      <input type="password"class="field" placeholder="password"/>
+      <button>create account</button>
+      <p class="message">you have an account? <a href="/">login</a></p>
+    </form>
+  </div>
+</div>
+
+<script>$('.message a').click(function(){
+  $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});</script>
